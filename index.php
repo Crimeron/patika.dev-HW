@@ -2,8 +2,10 @@
     function ucgen(){
         $satir = 15;
         for($i = 1;$i<=$satir;$i++){
-            for($j =1 ;$j<=$i;$j++){
+            $j = 1;
+            while($j <= $i){
                 echo "0";
+                $j++;
             }
             echo "<br/>";
         }
